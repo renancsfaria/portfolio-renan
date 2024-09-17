@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+    <title>Portfólio Renan Faria</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                </ul>
+            </nav>
+            <h1 class="mobile">Seja bem vindo ao meu portfólio!</h1>
+            <div class="btn-contato">
+                <a href="https://wa.me/61998432568/?text=Olá,%20estou%20entrando%20em%20contato%20sobre%20o%20portfólio." target="_blank"><button>Contato</button></a>
+            </div><!--btn-contato-->
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#portfolio">Projetos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="https://wa.me/61998432568/?text=Olá,%20estou%20entrando%20em%20contato%20sobre%20o%20portfólio." target="_blank">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Potencialize seu negócio com soluções digitais modernas<span>.</span></h1>
+                        <p> Buscando um especialista para elevar suas estratégias de marketing? Vamos construir juntos o website que vai potencializar suas vendas e levar seu negócio para o próximo nível digital.
+                        </p>
+                        <div id="contato" class="btn-contato">
+                            <a href="https://wa.me/61998432568/?text=Olá,%20estou%20entrando%20em%20contato%20sobre%20o%20portfólio." target="_blank">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+                    <div class="img-topo-site">
+                        <img id="grande" src="images/img-topo.jpg" alt="Homem de negócios e notebook">
+                        <img id="pequena" src="images/img-topo-pequena.jpg" alt="Homem de negócios e notebook">
+                        <img id="media" src="images/img-topo-media.jpg" alt="Homem de negócios e notebook">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section> <!--topo do site-->
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-buildings"></i>
+                        <h3>Site Institucional</h3>
+                        <p>Podemos criar um site empresarial, com um design inovador e totalmente personalizado para atender as particularidades do seu negócio.</p>                        
+                    </div><!--especialidades-box-->
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Loja Online</h3>
+                        <p>Deseja vender mais? Anunciar vários produtos em uma loja online com uma interface bonita e com a melhor experiência para seus clientes? Vamos juntos!</p>                        
+                    </div><!--especialidades-box-->
+                    <div class="especialidades-box">
+                        <i class="bi bi-person-video"></i>
+                        <h3>Site Pessoal</h3>
+                        <p>Precisa divulgar seus serviços?  Produz conteúdo para a internet? Presta serviços usando sua própria imagem e precisa de um site próprio para agregar profissionalismo e chamar atenção de ainda mais clientes? Faremos um site incrível</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especialidades-->
+        <section class="portfolio" id="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFOLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(#);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(#);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(#);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU RENAN FARIA.</span></h2>
+                        <p>Sou um desenvolvedor web júnior. Cursando pós-graduação em desenvolvimento web fullstack, tendo em foco principalmente o frontend, contudo sem desvalorizar a importância de entender princípios do backend.
+                            <br>Estou interessado em submeter minhas habilidades a desafios novos e oferecer soluções criativas por meio de sistemas e websites.</p>
+                        <div class="btn-social">
+                            <a href="https://www.github.com/renancsfaria" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/-renanfaria/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+    </main>
+    <footer>
+       <div class="interface">
+            <div class="flex">
+                <h1 class="mobile">Obrigado pela visita!</h1>
+                <div class="voltar-topo">
+                    <a href="index.html"><button><i class="bi bi-arrow-up-circle"></i></button></a>
+                </div> <!-- voltar-topo-->                
+            </div><!--line-footer-->
+       </div><!--interface-->
+    </footer>
+</body>
+</html>
